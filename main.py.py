@@ -22,7 +22,7 @@ link_api = "http://api.weatherapi.com/v1/current.json"
 # Parâmetros que vão na URL da consulta
 parametros = {
     "key": chave_api,    # sua chave de acesso
-    "q": "Carapicuiba",  # cidade consultada
+    "q": "auto:ip",  # cidade consultada
     "lang": "pt",        # idioma da descrição do clima
 }
 
